@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# --- Build outputs (PyInstaller / Inno Setup) ---
+# Publish DesatNerd.exe and the installer through GitHub Releases instead of committing them.
+build/
+dist/
+installer_output/
+*.exe
+
+# --- Patient / study data: never commit ---
+# Analysis outputs can contain clinical identifiers.
+oximetry_results/
+*_oximetry_summary.csv
+*_desaturation_events.csv
+batch_oximetry_hypoxic_burden_summary.csv
+*.edf
+*.EDF
+*.bdf
+*.rec
+*.edf.xml
+*.edf.XML
+*_Profusion.xml
+*_events.xml
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store

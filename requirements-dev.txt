@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# Building the Windows executable
+pyinstaller>=6.0

@@ -1,0 +1,12 @@
+# Core analysis
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+
+# Graphical interface (not needed for headless --cli mode)
+PySide6>=6.5
+
+# Optional: faster EDF reading. DesatNerd falls back to its built-in
+# pure-Python EDF reader if this is not installed.
+pyEDFlib>=0.1.36
