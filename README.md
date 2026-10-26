@@ -120,3 +120,9 @@ This produces `dist/DesatNerd.exe`. To build the installer, open `DesatNerd.iss`
 - Azarbarzin A, et al. The hypoxic burden of sleep apnoea predicts cardiovascular disease-related mortality. *European Heart Journal* 2019.
 - de Chazal P, et al. Respiratory event desaturation transient area (REDTA). *Sleep* 2021.
 - Kulkas A, et al. Novel parameters indicating severity of desaturation and recovery. *Medical & Biological Engineering & Computing* 2013.
+
+## Licence
+
+Copyright 2026 Brett Duce.
+
+DesatNerd is released under the [Apache License 2.0](LICENSE). You may use, modify and redistribute it, including commercially, provided you keep the copyright and licence notices (see [`NOTICE`](NOTICE)) and state any changes you make. It is provided "as is", without warranty of any kind.
