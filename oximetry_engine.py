@@ -1,5 +1,5 @@
 """
-Oximetry Signal Processing & Hypoxic Burden Calculation Engine for DesatNerd
+Oximetry Signal Processing & Hypoxic Burden Calculation Engine for desatNerd
 Supports:
   - Multi-condition physiological artifact detection (SpO2 slew rates, pulse coupling, flatlines, dropouts)
   - Sleep-masked analysis (TST/SPT) when Compumedics XML annotations are available

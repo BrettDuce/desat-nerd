@@ -1,12 +1,14 @@
-# DesatNerd
+# desatNerd
+
+> Naming: **SleepNerd** is the brand; each product is lower case before a capital-N **Nerd** (psgNerd, desatNerd, ecgNerd, simNerd, qualityNerd …).
 
 **Oxygen desaturation and hypoxic burden analysis for polysomnography and pulse oximetry.**
 
-DesatNerd is part of the SleepNerd suite. It reads overnight SpO2 recordings from PSG and standalone oximeters, removes artefact, detects desaturation events and calculates both conventional and newer hypoxic burden metrics. It runs as a desktop app (PySide6) or headless from the command line for batch processing.
+desatNerd is part of the SleepNerd suite. It reads overnight SpO2 recordings from PSG and standalone oximeters, removes artefact, detects desaturation events and calculates both conventional and newer hypoxic burden metrics. It runs as a desktop app (PySide6) or headless from the command line for batch processing.
 
 Author: Dr Brett Duce, Metro South Sleep Service, Princess Alexandra Hospital, Brisbane, Australia.
 
-> **Research use.** DesatNerd is not a registered medical device. Its outputs are intended for research and to support, not replace, review by qualified sleep scientists and physicians.
+> **Research use.** desatNerd is not a registered medical device. Its outputs are intended for research and to support, not replace, review by qualified sleep scientists and physicians.
 
 ---
 
@@ -19,7 +21,7 @@ Author: Dr Brett Duce, Metro South Sleep Service, Princess Alexandra Hospital, B
 | Event morphology | Duration, fall and recovery duration, depth, fall and recovery slopes (%/s), and fall and recovery limb areas for every event |
 | Analysis windows | Total sleep time (TST), sleep period time (SPT) or total recording time (TRT) |
 
-When a Compumedics Profusion XML file sits beside the EDF (`<study>.edf.XML`, `<study>_Profusion.xml` or `<study>_events.xml`), DesatNerd uses its sleep staging and scored respiratory events for the TST/SPT windows and for the event-linked burden metrics.
+When a Compumedics Profusion XML file sits beside the EDF (`<study>.edf.XML`, `<study>_Profusion.xml` or `<study>_events.xml`), desatNerd uses its sleep staging and scored respiratory events for the TST/SPT windows and for the event-linked burden metrics.
 
 ## Supported inputs
 
@@ -125,4 +127,4 @@ This produces `dist/DesatNerd.exe`. To build the installer, open `DesatNerd.iss`
 
 Copyright 2026 Brett Duce.
 
-DesatNerd is released under the [Apache License 2.0](LICENSE). You may use, modify and redistribute it, including commercially, provided you keep the copyright and licence notices (see [`NOTICE`](NOTICE)) and state any changes you make. It is provided "as is", without warranty of any kind.
+desatNerd is released under the [Apache License 2.0](LICENSE). You may use, modify and redistribute it, including commercially, provided you keep the copyright and licence notices (see [`NOTICE`](NOTICE)) and state any changes you make. It is provided "as is", without warranty of any kind.

@@ -1,5 +1,5 @@
 """
-Main Entry Point for DesatNerd: Oxygen Desaturations & Hypoxic Burden Analyzer
+Main Entry Point for desatNerd: Oxygen Desaturations & Hypoxic Burden Analyzer
 Part of the Metro South SleepNerd suite.
 Supports:
   1. Full interactive PySide6 graphical user interface with SleepNerd icons
@@ -143,7 +143,7 @@ def run_gui():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="DesatNerd: Oxygen Desaturations & Hypoxic Burden Analyzer")
+    parser = argparse.ArgumentParser(description="desatNerd: Oxygen Desaturations & Hypoxic Burden Analyzer")
     parser.add_argument("--cli", action="store_true", help="Run in headless command-line mode without GUI")
     parser.add_argument("--input", "-i", type=str, help="Path to single file or folder containing oximetry recordings")
     parser.add_argument("--output", "-o", type=str, default="", help="Directory to save CSV outputs")

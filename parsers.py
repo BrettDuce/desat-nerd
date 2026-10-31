@@ -1,4 +1,4 @@
-"""Universal Oximetry File Parsers for DesatNerd.
+"""Universal Oximetry File Parsers for desatNerd.
 
 Supports:
   - Compumedics-based EDF files & companion annotation files (<study-name>.edf.XML, <study-name>.edf.xml, etc.)

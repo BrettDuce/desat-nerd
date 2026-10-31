@@ -1,6 +1,6 @@
 from __future__ import annotations
 """
-Graphical User Interface for DesatNerd: Oxygen Desaturations & Hypoxic Burden Analyzer
+Graphical User Interface for desatNerd: Oxygen Desaturations & Hypoxic Burden Analyzer
 Features:
   - SleepNerd clinical visual design (#f5faff background, #11417f headers, #e6f2ff StatBoxes)
   - SleepNerd icon at the top of the left sidebar & window title / taskbar
@@ -149,7 +149,7 @@ class MainWindow(QMainWindow if PYSIDE6_AVAILABLE else object):
         act_user_guide = QAction("User Guide & Methodology", self)
         act_user_guide.triggered.connect(self.show_methodology_dialog)
         help_menu.addAction(act_user_guide)
-        act_about = QAction("About DesatNerd", self)
+        act_about = QAction("About desatNerd", self)
         act_about.triggered.connect(self.show_about_dialog)
         help_menu.addAction(act_about)
 
@@ -754,7 +754,7 @@ class MainWindow(QMainWindow if PYSIDE6_AVAILABLE else object):
         QMessageBox.information(
             self,
             "Analysis Complete",
-            f"DesatNerd analysis finished successfully.\nResults saved to: {self.out_path.text()}"
+            f"desatNerd analysis finished successfully.\nResults saved to: {self.out_path.text()}"
         )
 
     def on_analysis_error(self, err_text: str):
@@ -1194,7 +1194,7 @@ class MainWindow(QMainWindow if PYSIDE6_AVAILABLE else object):
 
     def show_methodology_dialog(self):
         """
-        Locates and opens the DesatNerd Clinical & Technical User Guide in the assets folder
+        Locates and opens the desatNerd Clinical & Technical User Guide in the assets folder
         using the default operating system viewer.
         Falls back to other project paths and an internal reference dialog if not found.
         """
@@ -1298,7 +1298,7 @@ class MainWindow(QMainWindow if PYSIDE6_AVAILABLE else object):
 
         # Fallback dialog if document is missing
         text = (
-            "<h2>DesatNerd by Dr Brett Duce, Princess Alexandra Hospital</h2>"
+            "<h2>desatNerd by Dr Brett Duce, Princess Alexandra Hospital</h2>"
             "<p><b>User Guide Document Not Found:</b><br>"
             "Please ensure <code>DesatNerd Clinical & Technical User Guide.pdf</code> is located in the "
             "<code>assets/</code> directory.</p>"
@@ -1329,4 +1329,4 @@ class MainWindow(QMainWindow if PYSIDE6_AVAILABLE else object):
             "<b>Companion Annotations:</b> Compumedics <code>.edf.XML</code>, Profusion XML, Nox XML.<br><br>"
             "<i>Brett Duce, Princess Alexandra Hospital, Brisbane, Australia.</i>"
         )
-        QMessageBox.about(self, "About DesatNerd", text)
+        QMessageBox.about(self, "About desatNerd", text)
