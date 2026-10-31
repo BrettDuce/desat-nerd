@@ -125,4 +125,4 @@ This produces `dist/DesatNerd.exe`. To build the installer, open `DesatNerd.iss`
 
 Copyright 2026 Brett Duce.
 
-DesatNerd is released under the [Apache License 2.0](LICENSE). You may use, modify and redistribute it, including commercially, provided you keep the copyright and licence notices (see [`NOTICE`](NOTICE)) and state any changes you make. It is provided "as is", without warranty of any kind.
+DesatNerd is proprietary software. All rights are reserved, and no use, copying, modification or distribution is permitted without a written licence from the copyright holder (see [`LICENSE`](LICENSE)). It is provided "as is", without warranty of any kind.
