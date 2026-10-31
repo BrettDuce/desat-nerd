@@ -1,7 +1,7 @@
-; Script generated for DesatNerd
+; Script generated for desatNerd
 ; Inno Setup 6.x configuration script
 
-#define MyAppName "DesatNerd"
+#define MyAppName "desatNerd"
 #define MyAppVersion "1.0.0"
 #define MyAppPublisher "Brett Duce"
 #define MyAppURL "https://sleepnerd.net"
@@ -56,7 +56,7 @@ Source: "assets\*"; DestDir: "{app}\assets"; Flags: ignoreversion recursesubdirs
 Name: "{autoprograms}\{#MyAppName}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\assets\SleepNerd.ico"
 
 ; Start Menu User Guide Shortcut
-Name: "{autoprograms}\{#MyAppName}\DesatNerd User Guide"; Filename: "{app}\assets\DesatNerd Clinical & Technical User Guide.pdf"
+Name: "{autoprograms}\{#MyAppName}\desatNerd User Guide"; Filename: "{app}\assets\DesatNerd Clinical & Technical User Guide.pdf"
 
 ; Desktop Shortcut (Optional task)
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon; IconFilename: "{app}\assets\SleepNerd.ico"
@@ -65,7 +65,7 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: de
 Name: "{autoprograms}\{#MyAppName}\Uninstall {#MyAppName}"; Filename: "{uninstallexe}"
 
 [Run]
-; Option to launch DesatNerd immediately after setup completes
+; Option to launch desatNerd immediately after setup completes
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
 
 [UninstallDelete]

@@ -1,5 +1,5 @@
 """
-Comprehensive Validation Test Suite for DesatNerd
+Comprehensive Validation Test Suite for desatNerd
 Tests:
   1. Synthetic data creation for Nonin, Nellcor, Masimo, and Compumedics EDF formats.
   2. Multi-format parsing and signal integrity checks.
